@@ -3,6 +3,7 @@ const ObjectRender = () => {
         title: "Clean Code",
         price: 44
     }
+    
     return (
         <div>
             <h1>Title: {book.title}</h1>

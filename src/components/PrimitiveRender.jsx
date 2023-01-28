@@ -1,6 +1,14 @@
 const PrimitiveRender = () => {
-    const title = "Clean Code"
-    return <h1>Book name: {title}</h1>
-}
+  const title = "Taliw";
+  return (
+    <h1>
+      Book name: {title} <HotTag />
+    </h1>
+  );
+};
 
-export default PrimitiveRender
+const HotTag = () => {
+  return <span>Hot!!</span>;
+};
+
+export default PrimitiveRender;

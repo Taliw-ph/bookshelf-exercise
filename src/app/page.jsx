@@ -4,9 +4,9 @@ import ObjectRender from "../components/ObjectRender"
 
 const HomePage = () => {
     return (
-        <PrimitiveRender />
+        // <PrimitiveRender />
         // <ListRender />
-        // <ObjectRender />
+        <ObjectRender />
     )
 }
 
