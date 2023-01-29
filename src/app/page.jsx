@@ -7,7 +7,7 @@ const HomePage = () => {
   const [books, setBooks] = useState([{ title: "Clean Code 2" }]);
   return (
     <div>
-      <AddBookForm />
+      <AddBookForm setBooks={setBooks} />
       <hr />
       <BookList books={books} />
     </div>
