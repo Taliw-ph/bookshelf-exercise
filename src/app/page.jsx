@@ -19,7 +19,7 @@ const HomePage = () => {
       setBooks((draft) => {
         draft.push(book);
       });
-      setBookCount(bookCount + 1);
+      setBookCount((prev) => prev + 1);
     });
   };
   const removeBook = (id) => {
@@ -28,7 +28,7 @@ const HomePage = () => {
       setBooks((draft) => {
         draft.splice(idx, 1);
       });
-      setBookCount(bookCount - 1);
+      setBookCount((prev) => prev - 1);
     });
   };
   return (
